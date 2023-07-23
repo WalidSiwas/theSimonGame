@@ -1,0 +1,56 @@
+body {
+    background-color: #424242;
+    text-align: center;
+}
+
+h1 {
+    color: #FCF2D4;
+    font-size: 75px;
+    font-family: cursive;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-gap: 50px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxs {
+    padding: 100px;
+    border: solid  black 8px;
+    border-radius: 10%;
+}
+
+.greenBox {
+    background-color: green;
+}
+.redBox {
+    background-color: red;
+}
+.yellowBox {
+    background-color: yellow;
+}
+.bluebox {
+    background-color: blue;
+}
+
+.clicked {
+    box-shadow: 0 3px 4px 0;
+    opacity: 0.5 ;
+}
+
+
+.game-over {
+    background-color: red;
+    opacity: 0.5;
+  }
+
+  footer {
+    padding-top: 100px;
+    color: #FCF2D4;
+    font-family: cursive;
+    ;
+  }
